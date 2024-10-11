@@ -1,0 +1,17 @@
+name: NameCraft
+version: '${project.version}'
+main: me.anhaamin.namecraft.NameCraft
+api-version: 1.19
+authors: [ Anha, Amin ]
+description: This plugin allows players to alter the name, name color, and lore of an item.
+website: cs.princeton.edu
+commands:
+  rename:
+    description: Rename items
+    usage: /<command>
+  recolor:
+    description: Recolor items
+    usage: /<command>
+  tag:
+    description: Set description to items
+    usage: /<command>
